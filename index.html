@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Resume Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="container"></div>
+        <!-- Main Content Section -->
+        <div class="main-content">
+            <!-- Left Section -->
+            <div class="left-section">
+                <!-- Top Header Section -->
+                <div class="profile-container">
+                    <div class="profile-image-container">
+                        <img id="profileImage" src="Usama-Image.png" alt="Profile Picture" />
+                    </div>
+                </div>
+
+                <div class="profile-details">
+                    <h1>USAMA BHATTI</h1>
+                    <h2>FRONT END DEVELOPER</h2>
+                </div>
+                <div class="about-me">
+                    <h3>About Me</h3>
+                    <p>Frontend Developer With a Passion For Creating Ingaging & Responsive Web Application. Proficient in HTML, CSS,JavaScript & TypeScript, Frameworks Such as Bootstrap. Aiming to Leverage My Skills & Experience to contribute to innovative Project in a Collaborative Team Environment. </p>      
+                </div>
+                <div class="contact-info">
+                    <!-- <h3>Contact Info</h3> -->
+                    <h3>Personal Information</h3>
+                    <p><i class="fas fa-user"></i> <strong>Name:</strong> <span id="name">Usama Bhatti</span></p>
+                    <br>
+                    <p><i class="fas fa-envelope"></i> <strong>Mail:</strong> <span id="contact">Usamabhattipk027@gmail.com</span></p>
+                    <br>
+                    <p><i class="fas fa-phone"></i> <strong>Contact:</strong> <span id="contact">03030234064</span></p>
+                    <br>
+                    <p><i class="fas fa-map-marker-alt"></i> <strong>Addres:</strong> <span id="contact">House No L/73 Street No/12 Laubor Colony Korangi <sup>1</sup>/<sub>2</sub> Landhi Karachi.</span></p>
+                </div>
+
+                <!-- Button to Toggle Skills Section -->
+                <button id="toggleSkillsBtn"><i class="fas fa-star"></i> Toggle Skills</button>
+
+                <div class="skills" id="skillsSection">
+                    <h3>Language</h3>
+                    <ul>
+                        <li>English</li>
+                        <li>Urdu</li>
+
+                    </ul>
+                    <h3>Expertise</h3>
+                    <ul>
+                        <li> HTML/CSS</li>
+                        <li> JavaScript/TypeScript</li>
+                        <li> React</li>
+                        <li> Git/GitHub</li>
+                        <li> Bootstrap</li>
+                        <li>Management Skills</li>
+                        <li>Creativity</li>
+                        <li>Negotiation</li>
+                        <li>Critical Thinking</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Right Section -->
+            <div class="right-section">
+                <!-- Button to Toggle Experience Section -->
+                <button id="toggleExperienceBtn"><i class="fas fa-briefcase"></i> Toggle Experience</button>
+
+                <div class="experience" id="experienceSection">
+                    <h3></h3>
+                    <br>
+                    <div class="job">
+                        <h4>My Projects:</h4>
+                       <p><a href="https://vercel.com/usama-bhattis-projects-713f82e5">Vercel Link</a></p>
+                    </div>
+                    <div class="job">
+                        <h4>My GitHub:</h4>
+                        <p><a href="https://github.com/usamatechodyssey">GitHub Link</a></p>
+
+                    </div>
+                </div>
+
+                <div class="education">
+                    <h3>Education</h3>
+                    <br>
+                    <div class="degree">
+                        <h4>Matric:</h4>
+                        <p>Faham Public School (2019-2022)</p>
+                    </div>
+                    <div class="degree">
+                        <h4>Intermediate:</h4>
+                        <p> Govenment Degree Science & Commerce College(On-Going)</p>
+                    </div>
+                </div>
+
+                <div class="skills-summary">
+                    <h3>Skills Summary</h3>
+                    <div class="skill">
+                        <br>
+                        <p>HTML</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>CSS</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>JavaScript</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>TypeScript</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- Include TypeScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
